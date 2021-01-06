@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px; }
+
+.wrap {
+  margin: 0 auto;
+  max-width: 768px;
+  background-color: #000000; }
+
+.btn {
+  width: 290px;
+  height: 30px;
+  border-radius: 12px; }
+
+.btn,
+.btn:active,
+.btn:focus {
+  outline: none; }
+
+.header-nav__link {
+  display: none; }
+
+.link_block {
+  display: block;
+  text-decoration: none; }
+
+.c-flex {
+  display: flex;
+  flex-direction: column; }
+
+.r-flex {
+  display: flex;
+  flex-direction: row; }
+
+.header-nav {
+  text-align: right;
+  margin: 15px; }
+
+.nav__btn {
+  background-color: inherit;
+  border: none; }
+
+.nav__btn,
+.nav__btn:active,
+.nav__btn:focus {
+  outline: none; }
+
+.nav__link {
+  margin: 25px;
+  display: block;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 1.3em;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.nav__link:hover {
+  background-color: #fff; }
+
+.link_block {
+  display: block; }
+
+.link_none {
+  display: none; }
+
+.b-nav-link {
+  width: 320px;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  background-color: #ffffff; }
+
+#nav__exit {
+  padding: 10px; }
+
+.nav__link_tel {
+  margin-top: 80px;
+  font-weight: bold; }
+
+.nav__link_btn {
+  margin: 25px auto;
+  width: 150px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fb0275;
+  background-color: #ffffff;
+  color: #fb0275;
+  font-size: 1.1em;
+  font-weight: 800; }
+
+.b-title {
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../static/img/headerBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; }
+
+.b-title-header {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo {
+  margin: 15px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8em;
+  color: #ffffff; }
+
+.b-title__content {
+  width: 310px;
+  justify-content: center;
+  text-align: left; }
+
+.b-title__img {
+  margin: 20px;
+  align-self: center; }
+
+.b-title__txt {
+  justify-content: center;
+  text-align: left; }
+
+.b-title__slogan {
+  margin: 15px;
+  font-size: 3.6em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #ffffff; }
+
+.b-title__desk {
+  margin: 15px;
+  font-size: 2.1em;
+  color: #ffffff; }
+
+.b-title__control {
+  justify-content: space-between;
+  align-items: start;
+  margin: 15px 5px; }
+
+.b-title__btn {
+  margin: 0 auto;
+  background-color: #fb0275;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #ffffff; }
+
+.btn__desk {
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6em;
+  color: #ffffff;
+  text-align: center; }
+
+@media (min-width: 768px) {
+  .wrap {
+    max-width: 1140px; }
+  .logo {
+    margin: 25px; }
+  .b-title__content {
+    width: 100%;
+    justify-content: space-between; }
+  .b-title__img {
+    margin: 5%;
+    align-self: center;
+    width: 50%; }
+  .b-title__txt {
+    margin: 5%; }
+  .b-title__slogan {
+    font-size: 4.5em; }
+  .b-title__desk {
+    font-size: 2.1em; }
+  .b-title__btn {
+    font-size: 1.6em; }
+  .btn {
+    height: 40px;
+    border-radius: 25px; }
+  .b-title__txt {
+    justify-content: space-between; } }
+
+@media (min-width: 1140px) {
+  .wrap {
+    max-width: 1920px; }
+  .header-nav {
+    width: 85%; }
+  .nav__btn {
+    display: none; }
+  #nav__exit {
+    display: none; }
+  .b-nav-link {
+    position: relative;
+    background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; }
+  .nav__link_tel {
+    margin: 25px;
+    font-weight: 400; }
+  .nav__link_btn {
+    margin: 25px;
+    font-size: 1.1em;
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: inherit;
+    font-weight: 400;
+    border-width: 1px; }
+  .nav__link {
+    font-weight: 400;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 15px; }
+  .nav__link:hover {
+    border-color: #ffffff;
+    background-color: inherit;
+    border-style: solid;
+    border-width: 1px; }
+  .nav__link_btn:hover {
+    background-color: #fb0275; }
+  .b-title-header,
+  .b-title__content {
+    max-width: 1380px; }
+  .b-title__slogan {
+    font-size: 6em; }
+  .b-title__desk {
+    font-size: 3.2em; } }
