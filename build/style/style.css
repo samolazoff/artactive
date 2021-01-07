@@ -6,7 +6,10 @@ body {
 .wrap {
   margin: 0 auto;
   max-width: 768px;
-  background-color: #000000; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .btn {
   width: 290px;
@@ -32,6 +35,11 @@ body {
 .r-flex {
   display: flex;
   flex-direction: row; }
+
+.block__title {
+  font-size: 3em;
+  font-weight: bold;
+  color: #7f38bd; }
 
 .header-nav {
   text-align: right;
@@ -159,6 +167,43 @@ body {
   color: #ffffff;
   text-align: center; }
 
+.b-about-us {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: start;
+  align-self: center; }
+
+.b-about-us-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: start; }
+
+.b-about-us__txt {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-size: 1.4em;
+  line-height: 2.4em;
+  color: #5e606a; }
+
+.b-about-us__subtitle {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-size: 2.4em;
+  color: #383d52; }
+
+.b-about-us__img {
+  width: 320px;
+  align-self: center; }
+
+#au_img750 {
+  display: none; }
+
+#au_img1140 {
+  display: none; }
+
 @media (min-width: 768px) {
   .wrap {
     max-width: 1140px; }
@@ -183,7 +228,22 @@ body {
     height: 40px;
     border-radius: 25px; }
   .b-title__txt {
-    justify-content: space-between; } }
+    justify-content: space-between; }
+  .b-about-us__txt {
+    font-size: 2.4em;
+    line-height: 1.2em; }
+  .b-about-us__img {
+    width: 750px;
+    margin-top: 14px;
+    margin-bottom: 14px; }
+  .b-about-us__subtitle {
+    font-size: 3.2em; }
+  #au_img320 {
+    display: none; }
+  #au_img750 {
+    display: block; }
+  #au_img1140 {
+    display: none; } }
 
 @media (min-width: 1140px) {
   .wrap {
@@ -230,4 +290,30 @@ body {
   .b-title__slogan {
     font-size: 6em; }
   .b-title__desk {
-    font-size: 3.2em; } }
+    font-size: 3.2em; }
+  .b-about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px; }
+  #au_img1140 {
+    display: block;
+    width: 45%; }
+  .b-about-us-content {
+    width: 45%; }
+  .b-about-us__txt {
+    font-size: 2.4em;
+    line-height: 1.2em; }
+  .b-about-us__img {
+    width: 750px;
+    margin-top: 14px;
+    margin-bottom: 14px; }
+  .b-about-us__subtitle {
+    font-size: 3.2em; }
+  #au_img320 {
+    display: none; }
+  #au_img750 {
+    display: none; }
+  .b-about-us {
+    max-width: 1380px; } }
